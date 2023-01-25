@@ -96,7 +96,7 @@
           margin: auto;
           max-width: 650px;
         background-color: blue;
-        height: 100vh; /* full height of the viewport */
+        height: 150vh; /* full height of the viewport */
         background-image: url('images/scene1backgroundbigflamingo.jpg'); /* added background image */
         background-attachment: fixed; /* added to create a parallax effect */
         background-position: center; /* added to center the background image */
@@ -296,7 +296,7 @@ Your browser does not support the audio element.
 <script>
     var blinked = false;
     var intervalID = window.setInterval(blink, 200);
-    var intervalID2 = window.setInterval(toggleblink, Math.random() * 10000 + 2000);
+    var intervalID2 = window.setInterval(toggleblink, Math.random() * 10000 + 400);
 
 function blink() {
     if (blinked == true) {
